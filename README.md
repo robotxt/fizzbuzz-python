@@ -4,8 +4,6 @@
 
 **Python:** 3.11.5
 
-**Pytest** 
-
 ## Development setup:
 
 **Setup Virtual Environment:**
@@ -25,10 +23,14 @@
 `python main.py`
 
 
-**Run Test:**
+**Test:**
+
+[pytest] (https://docs.pytest.org/en/stable/)
 
 `./test.sh`
 
-**Run Linter:**
+**Linter:**
+
+[black] (https://pypi.org/project/black/)
 
 `./linter.sh`

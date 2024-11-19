@@ -1,0 +1,15 @@
+**.vscode
+
+# Ignore pyc/cache
+*.pyc
+__pycache__/
+**.cache
+**.local
+**.ruff_cache
+.coverage
+
+# coverage report
+.coverage
+
+# pyenv
+.python-version

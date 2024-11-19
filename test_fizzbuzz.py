@@ -18,6 +18,14 @@ def test_integer_not_in_range():
         FizzBuzz(input_start, input_end).run()
 
 
+def test_negative_inputs():
+    input_start = -10
+    input_end = -20
+
+    with pytest.raises(ValueError, match=ERR_INVALID_RANGE):
+        FizzBuzz(input_start, input_end).run()
+
+
 def test_end_integer_is_lower():
     input_start = 15
     input_end = 10
